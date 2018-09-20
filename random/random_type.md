@@ -14,6 +14,9 @@ sesame.mock(url,method,data);
 \$filePath:string || function   表示文件的绝对路径，当为function时，需要返回一个绝对路径  
 
 \$status:number   表示响应状态码  
+
+\$delay:number    表示该请求至少多少毫秒后才返回  单位ms
+
 例子：
 ```
 sesame.rule.js  
